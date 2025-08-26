@@ -12,7 +12,7 @@ def current_build_label():
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title(f"MyApp – {current_build_label()}")
+        self.title(f"MyApp-second – {current_build_label()}")
         self.geometry("500x260")
         self._build()
 
