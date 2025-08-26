@@ -3,7 +3,7 @@ param(
   [string]$RepoUrl = "https://github.com/tetalisriteja439/auto_updater.git",
 
   # ✅ Local repo path — this is exactly your folder
-  [string]$AppRoot = "$HOME\OneDrive - WFS\Desktop\WFS\auto_updater",
+  [string]$AppRoot = "$HOME\OneDrive - WFS\Desktop\WFS\auto_updater\auto_updater",
 
   # ✅ Entry point at repo root
   [string]$Entry   = "gui.py",
